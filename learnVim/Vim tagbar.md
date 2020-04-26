@@ -52,11 +52,8 @@ let g:tagbar_ctags_bin = "/usr/local/Cellar/ctags/5.8_1/bin/ctags"
 
 ## 一些配置
 
-下面是添加快捷键和宽度的设置
-
 ```
-nnoremap tag :TagbarToggle<CR>
-let g:tagbar_left = 1 " 设置在左边打开
+let g:tagbar_left = 1 " 设置在左边打开，和nerdtree一起使用时最好不使用这个设置。因为nerdtree一般会在左边
 let g:tagbar_width = 30
 ```
 
@@ -72,6 +69,16 @@ let g:tagbar_width = 30
 ```
 autocmd FileType c,cpp,py,markdown nested :TagbarOpe
 ```
+
+### 跳转
+
+在使用tagbar时，一般会多个文件同时打开。如果要直接从一个窗口跳转到其对应的 tagbar 的 window 中，可以添加下面的配置。
+
+```
+nnoremap tag :TagbarOpen fj<CR>
+```
+
+之后使用在 normal 模型中使用 tag 命令就可以直接跳转到 tagbar 的窗口中了。
 
 ## 添加Mardown支持
 
@@ -104,7 +111,7 @@ let g:tagbar_type_markdown = {
 
 最后的效果
 
-![](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200425192225.png)
+![picture here](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200425192225.png)
 
 # References
 1. [让tagbar支持markdown | 净土](http://howiefh.github.io/2013/05/17/make-tagbar-support-markdown/)

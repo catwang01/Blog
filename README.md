@@ -19,6 +19,7 @@
 9. [resnet.md](learnML/resnet.md)
 10. [xgboost.md](learnML/xgboost.md)
 11. [xgboostInterview.md](learnML/xgboostInterview.md)
+12. [学习笔记 8 -- 各种优化器的比较]( learnML/note8.md )
 
 
 之后还会陆续添加！

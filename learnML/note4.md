@@ -1,4 +1,3 @@
-
 [toc]
 
 # ML 学习笔记 4-评价标准
@@ -103,7 +102,7 @@ $$
 
 可以看到，TPR实际上就是之前定义的 recall
 
-![](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200428112659.png)
+![image](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200428112659.png)
 
 - ROC曲线的绘制
 

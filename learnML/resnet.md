@@ -22,12 +22,12 @@
 
 >Let us consider a shallower archtecture and its deeper counterpart that adds more layers onot it.There exists a solution by construction to the deeper model: the added layers are identity mapping, and the other layers are copied from the learned shallower model. The existence of this constructed solution indictes that a deeper model should produce no hgher training error than its shallower counterpart.
 
-degradation 现象反映出不同的网络结构是的训练难度是不一样的。
+degradation 现象反映出不同的网络结构的训练难度是不一样的。
 
 设对于一个真实的映射 $H(x)$ 的估计为 $\hat{H}(x)$，我们希望通过网络来学习出的映射 $F(x)$ 来估计 $H(x)$，即 
 $$F(x) = \hat{H}(x)$$
 
-**假设估计残差 $H(x)-x$ 的难度要比估计 $H(x)$ 简单**，那我们直接去估计 $H(x)-x$ 就好了。即此时 $F(x) = \hat{H}(x) - x$，由此得到
+**假设**估计残差 $H(x)-x$ 的难度要比估计 $H(x)$ 简单，那我们直接去估计 $H(x)-x$ 就好了。即此时 $F(x) = \hat{H}(x) - x$，由此得到
 
 $$\hat{H}(x) = F(x) + x$$
 
@@ -36,7 +36,7 @@ $$\hat{H}(x) = F(x) + x$$
 
 ## 为什么残差更好估计？
 
-上面推断有一个假设：估计 **假设估计残差 $H(x)-x$ 的难度要比估计 $H(x)$ 简单**。
+上面推断有一个假设： **估计残差 $H(x)-x$ 的要比估计 $H(x)$ 简单**。
 
 可是这个假设是不是正确的？
 
@@ -68,7 +68,7 @@ $$\hat{H}(x) = F(x) + x$$
 
 上面说了一通，到底要如何估计残差呢？作者提出了用 shortcuts 结构来实现残差网络：
 
-![4de77df8b59a1f9058fe877277dfeee9.png](evernotecid://7E3AE0DC-DC71-4DDC-9CC8-0C832D6C11C2/appyinxiangcom/22483756/ENResource/p12224)
+![block](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200429202153.png)
 
 用公式表示为
 
@@ -84,11 +84,11 @@ $$y = F(x, \{W_i\}) + x$$
 
 $$y = F(x, \{W_i\}) + W_sx$$
 
-注意到，即使 x 与 F(x) 形状相同时，也可以对 x 乘以一个方阵 $W_s$ 后再相加。作者在之后的实验中说明了这样做的性价比不高，虽然会有蚊子腿的性能提升， 但是增加了计算开销。**因此 $W_s$ 只有在二者形状不同时用来调整形状。**
+注意到，即使 $x$ 与 $F(x)$  形状不同时，也可以对 $x$ 乘以一个方阵 $W_s$ 后再相加。作者在之后的实验中说明了这样做的性价比不高，虽然会有蚊子腿的性能提升， 但是增加了计算开销。**因此 $W_s$ 只有在二者形状不同时用来调整形状。**
 
 >But we will show by experiments that tht identity mapping is sufficient for addressing the degradation problem adn is economical， and thus $W_s$ is only used when matching dimensions.
 
-不增加计算开销这一点还是很重要的，因为作者认为残差学习的一大特点就是几乎不增加时间复杂度
+**不增加计算开销这一点还是很重要的**，因为作者认为残差学习的一大特点就是几乎不增加时间复杂度
 
 >The shortcut connections introduce neither extra parameter nor computation complexity. 
 
@@ -108,9 +108,9 @@ $$y = F(x, \{W_i\}) + W_sx$$
 2. 优化器为SGD 初始lr为0.1，在error plateaus处乘以0.1，使用 weight decay，decay rate 为 0.0001，momentum = 0.9
 3. batch_size = 256, 迭代了 $60 \times 10^4$ 次
 
-其它的，实验结果没有什么好说的，大概就是残差网络牛B呗！这里上一张图
+其它的实验结果没有什么好说的，大概就是残差网络牛B呗！这里上一张图
 
-![fcf40b36bd73100bc799f3a67ffbef5d.png](evernotecid://7E3AE0DC-DC71-4DDC-9CC8-0C832D6C11C2/appyinxiangcom/22483756/ENResource/p12225)
+![net structure](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200429202324.png)
 
 ### Deeper Bottlenectk Architectures
 
@@ -122,6 +122,6 @@ $$y = F(x, \{W_i\}) + W_sx$$
 
 下面是bottleneck的结构
 
-![331366a2d5d7d641ba0ef80711505657.png](evernotecid://7E3AE0DC-DC71-4DDC-9CC8-0C832D6C11C2/appyinxiangcom/22483756/ENResource/p12226)
+![bottleneck](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200429202243.png)
 
 

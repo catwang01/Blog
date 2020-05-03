@@ -37,3 +37,15 @@ df.value_count()
 ## series.value_count()
 
 分类统计类别数
+
+# df2 修改 df1 也会修改
+df1 = pd.DataFrame({"col1": [1,2,3]})
+df2 = df1
+df2.iloc[0, 0] = 2
+df2
+df1
+
+## 修改列名
+
+df1.rename(columns={'c':'D'},inplace=True)
+print('修改一个列名\nmethod2_inplace:\n',df1)

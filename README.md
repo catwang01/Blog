@@ -6,7 +6,7 @@
 
 目前有的内容是 
 
-- learnML: 记录Machine Learning相关的内容。
+## learnML: 记录Machine Learning相关的内容。
 
 1. [DesicionTree.md](learnML/DesicionTree.md)
 2. [adaboost.md](learnML/adaboost.md)

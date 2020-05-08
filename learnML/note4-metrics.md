@@ -1,9 +1,10 @@
 [toc]
 
+# Todo - 2020-05-08 09:50 -- by ed  这个之后有时间再看
+
 # ML 学习笔记 4-评价标准
 
 ## 4.1 回归问题的评价标准
-
 
 对于回归问题，最简单的就可以取 loss function 的值作为评价标准。比如对于最简单的线性回归问题，其 loss function 为平方损失函数
 
@@ -43,7 +44,11 @@ $$
 
 如果我们关心的是负类被分类正确的程度的话，使用 acc 来度量效果就不会很好。
 
+>首先，accuracy是最常见也是最基本的evaluation metric。但在binary classification 且正反例不平衡的情况下，尤其是我们对minority class 更感兴趣的时候，accuracy评价基本没有参考价值。什么fraud detection（欺诈检测），癌症检测，都符合这种情况。
+来自于 [2]
+
 ### 4.2.2 Precision & Recall 
+
 对于一些问题，我们会关心的查全率（recall）。其定义为
 
 $$
@@ -81,9 +86,12 @@ $$
 
 还可以将 F1 的概念推广，取 precision 和 recall 的加权调和平均值，这里就不介绍了。
 
+F1 的缺点：
+1. 一个 precision 大而 recall 小和一个 precision 小或 recall 大的模型的  f1 可能是相同的，因此也不适合处理我们更多关注 minority data 的情况。
+
 - 多分类情况
 
-对于多分类情况，的F1计算有两种方式。其实很无聊，没有什么意思，就是先计算平均再计算 precision 还是 recall 还是先计算precision再求平均的区别
+对于多分类情况，的F1计算有两种方式。其实很无聊，没有什么意思，就是先计算平均再计算 precision 和 recall 还是先计算precision 和 recall 再求平均的区别
 
 ## 4.3 ROC和AUC
 
@@ -91,7 +99,7 @@ $$
 
 这个问题可以通过ROC曲线来回答。
 
-ROC曲线的横坐标是正例率TPR（true positive rate），而纵坐标是假例率 FPR（flase positive rate，其中这两个指标的定义为 
+ROC曲线的横坐标是假例率 FPR（flase positive rate），而纵坐标是正例率TPR（true positive rate），其中这两个指标的定义为 
 
 $$
 \begin{aligned}
@@ -116,3 +124,4 @@ ROC曲线主要有两个用途
 
 # References
 1. 西瓜书
+2. [精确率、召回率、F1 值、ROC、AUC 各自的优缺点是什么？ - 知乎](https://www.zhihu.com/question/30643044)

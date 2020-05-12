@@ -38,13 +38,11 @@ git commit -m "add 1 folder"
 
 ### 查看信息 
 
-```
-git status 查看工作区状态 
-```
+#### git status 查看工作区状态
 
 git status 的内容如下
 
-![git status](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200512180952.png)
+![git status](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200512181743.png)
 
 #### git log 查看历史记录  
 
@@ -128,18 +126,22 @@ git checkout -- .
 ### 删除文件
 
 ```
-git add test.txt  
-git commit -m 'add test.txt'  
-
 rm test.txt # 从文件中删除，此时文件删除中，可是版本库中的test.txt还没有删除  
-git rm test.txt # 从版本库中删除  
+git add test.txt # 从版本库中删除  
 # 删除也需要提交
 git commit -m "delete test"
-
-git checkout --test.txt # 恢复删除  
 ```
 
-如果只想从版本库中删除，而不想删除本地，可以使用
+rm + git add 操作可以用一个 git rm 操作来代替
+
+```
+git rm test.txt
+git commit -m "delete test"
+```
+
+#### 只删除版本库中的文件
+
+如果只想从版本库中删除，而不想删除工作区中的文件，可以使用
 
 ```
 git rm --cached test.txt

@@ -36,13 +36,15 @@ git add fold
 git commit -m "add 1 folder"
 ```
 
-
 ### 查看信息 
 
 ```
-git status 查看工作区状态  
-git diff 查看修改内容  
+git status 查看工作区状态 
 ```
+
+git status 的内容如下
+
+![git status](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200512180952.png)
 
 #### git log 查看历史记录  
 
@@ -316,7 +318,6 @@ fork 是在github页面点击fork
 ![2697b21619540888e29f3bb339dd7e6c.png](evernotecid://7E3AE0DC-DC71-4DDC-9CC8-0C832D6C11C2/appyinxiangcom/22483756/ENResource/p10528)
 
 这时可以从自己的远程仓库 git clone 下来就可以在自己的远程仓库中 pull 和 push 了！
-
 
 
 # References

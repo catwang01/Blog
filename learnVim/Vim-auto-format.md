@@ -35,7 +35,7 @@ au BufWrite *.cpp :Autoformat
 
 ## 自定义 c++ 的格式化风格
 
-### 安装 `clang-format`
+### 使用 `clang-format` 格式化
 
 可以使用 `clang-format` 对 c++ 代码进行格式化。
 
@@ -75,8 +75,31 @@ let g:formatters_cpp = ['mycustom']
 
 clang-format 的更多使用，可以查看 [ 1 ] [ 2 ]
 
+### 使用 astyle 格式化
+
+刚开始的时候使用的是 `clang-format`，之后发现没有 `astyle` 好用，就用了 astyle.
+
+#### 安装 astyle (推荐)
+
+mac 上直接使用 homebrew 安装即可
+
+```
+brew install astyle
+```
+
+安装之后在 `~/.vimrc` 中添加下面的内容。
+
+```
+let g:formatdef_mycustom = '"astyle --style=ansi"' 
+let g:formatters_cpp = ['mycustom']
+```
+
+由于默认的 `ansi`  风格已经可以满足我的要求了，因此就没有继续设置。更多的风格，可以参考 [ 5 ]
+
 # References
 
 1. [Chiel92/vim-autoformat: Provide easy code formatting in Vim by integrating existing code formatters.](https://github.com/Chiel92/vim-autoformat)
 2. [Clang-Format格式化选项介绍_c/c++_子丰的博客-CSDN博客](https://blog.csdn.net/softimite_zifeng/article/details/78357898)
 3. clang-format 的官方文档 [Clang-Format Style Options — Clang 11 documentation](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
+4. 值得继续看：[Vim插件之vim-autoformat - 码农教程](http://www.manongjc.com/article/35909.html)
+5. [Astyle：代码格式化工具简明指南_运维_jess的专栏-CSDN博客](https://blog.csdn.net/xiaotao2004/article/details/1560538)

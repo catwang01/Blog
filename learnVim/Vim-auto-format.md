@@ -102,4 +102,4 @@ let g:formatters_cpp = ['mycustom']
 2. [Clang-Format格式化选项介绍_c/c++_子丰的博客-CSDN博客](https://blog.csdn.net/softimite_zifeng/article/details/78357898)
 3. clang-format 的官方文档 [Clang-Format Style Options — Clang 11 documentation](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
 4. 值得继续看：[Vim插件之vim-autoformat - 码农教程](http://www.manongjc.com/article/35909.html)
-5. [Astyle：代码格式化工具简明指南_运维_jess的专栏-CSDN博客](https://blog.csdn.net/xiaotao2004/article/details/1560538)
+5. [Artistic Style](http://astyle.sourceforge.net/astyle.html#_indent-after-parens)

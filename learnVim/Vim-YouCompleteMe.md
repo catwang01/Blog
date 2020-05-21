@@ -17,7 +17,7 @@ Plug 'https://github.com/ycm-core/YouCompleteMe'
 
 ### 2. 编译
 
-进入 vim安装 YouCompleteMe 的插件安装的目录中，我的目录是
+进入 vim 安装 YouCompleteMe 的插件安装的目录中，我的目录是 `~/.vim/plugins/YouCompleteMe/`
 
 ```
 $ cd ~/.vim/plugins/YouCompleteMe/
@@ -29,9 +29,11 @@ $ cd ~/.vim/plugins/YouCompleteMe/
 $ ./install.py --clang-completer
 ```
 
+这里是编译 c/c++ 补全，其它语言可以使用别的编译选项。
+
 ### 3. 配置文件
 
-其它语言可以使用别的编译选项。
+根据 [ 3 ] 来进行配置
 
 ## 坑
 
@@ -49,6 +51,8 @@ The ycmd server SHUT DOWN (restart with :YcmRestartServer)
 $ brew install python3
 ```
 
+
 # References
 1. ["The ycmd server SHUT DOWN (restart with :YcmRestartServer)" · Issue #914 · ycm-core/YouCompleteMe](https://github.com/ycm-core/YouCompleteMe/issues/914)
 2. 官方：[ycm-core/YouCompleteMe: A code-completion engine for Vim](https://github.com/ycm-core/YouCompleteMe)
+3. [VIM自动补全神器 --- YouCompleteMe 安装全教程 - 简书](https://www.jianshu.com/p/7c8d0510f1d6)

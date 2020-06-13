@@ -368,19 +368,9 @@ endsnippet
 
 不同的语言可以在对应的片段文件中定义并传入注释符号参数即可，有了这个功能就可以愉快的删除其它的 vim 注释插件了 😀
 
-### 自定义括号补全
+## 优先级
 
-参考了 [2]
-```
-snippet ( "if (...)" iA
-(${1:${VISUAL: }})$0
-endsnippet
-
-snippet { "if [...)" iA
-{${1:${VISUAL: }}}$0
-endsnippet
-```
-
+有些命令，可能输入有重叠，这时需要使用优先级来区分。*优先级大的优先处理*
 
 # References
 1. [vim为markdown文件写snippets - 简书](https://www.jianshu.com/p/b07867e80296)

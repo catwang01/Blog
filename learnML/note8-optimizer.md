@@ -49,14 +49,23 @@ Gradient Descent 优化的一个方向是动量优化。有 Momentum 和 Nestrov
 
 $$
 \begin{aligned}
-& v \leftarrow  - \eta g(\theta) + \alpha v  \\
-& \theta \leftarrow \theta + v
+& v \leftarrow  \alpha v + \eta g(\theta)  \\
+& \theta \leftarrow \theta - v
 \end{aligned}
 $$ 
 
 其中是$v$ 表示之前的速度，初始化为 0。
 
-![盗一张李宏毅的ppt](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200428120654.png)
+注意，上面的公式是原始的 momentum 的公式。在许多深度学习的框架里，对上面的公式有所修改，变成了：
+
+$$
+v \leftarrow \alpha  v  + g(\theta) \\
+\theta \leftarrow \theta - \eta v
+$$ 
+
+![](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200703184811.png)
+
+不知道这样做有什么好处。可能是这种形式可以直接从 sgd 修改，从而减少代码量。不知道这两种形式是否等价。
 
 ### NAG
 
@@ -85,6 +94,14 @@ $$
     & \theta \leftarrow \theta - \eta \frac{1}{\sqrt{h + \epsilon} }g
 \end{aligned}
 $$ 
+
+#### 优点
+
+可以自动调节学习率，而不需要人为手动调节。
+
+#### 缺点
+
+历史信息不断累加，导致学习率越来越小，不足以维持学习到一个最优的参数，可能导致模型欠拟合。
 
 ### RMSprop
 

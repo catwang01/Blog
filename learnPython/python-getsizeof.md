@@ -5,5 +5,5 @@
 ```
 import sys
 x = 1
-getsizeof(x) # 返回的大小是 bytes
+sys.getsizeof(x) # 返回的大小是 bytes
 ```

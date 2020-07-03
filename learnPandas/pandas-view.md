@@ -2,8 +2,44 @@
 
 # Pandas 可视化探索
 
+## 一个离散变量
+
+```
+sns.countplot(x="SeriousDlqin2yrs", data=df)
+print("Proportion of People Who Defaulted: {}".format(df["SeriousDlqin2yrs"].sum() / len(df)))
+```
+
+
 ## 一个连续变量
 
+
+
+### 密度图
+
+#### sns.distplot
+
+```
+sns.distplot(df["age"])
+```
+
+#### sns.kdeplot
+
+```
+sns.kdeplot(df['age'])
+```
+
+可以将多个变量同时绘制在一张密度图上。此时注意要先标准化，再画密度图。
+
+```
+def normalize(x):
+    mu = x.mean()
+    std = x.std()
+    return (x - mu) / std
+
+df.apply(normalize).apply(sns.kdeplot)
+```
+
+![mult-kdeplot](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200514183824.png)
 
 ## 两个连续变量之间的关系
 

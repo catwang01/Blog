@@ -9,6 +9,31 @@
 .drop()
 
 
+## .unique()
+
+```python
+import pandas as pd
+df = pd.DataFrame({'id': [1,2,2,3],
+                  'age': [4,4,5,6]}
+                  )
+# 注意返回的是 ndarray， 不是 Series
+df['id'].unique()
+```
+    array([1, 2, 3])
+
+
+
+```python
+df['id'].nunique()  # 3
+# 上面的相当于 
+df['id'].unique().shape[0] # 3
+```
+    3
+
+
+
+
+
 ## pd.merge
 
 ```
@@ -29,7 +54,7 @@ data.StateHoliday.replace(mappings, inplace=True)
 ## .列名
 
 ```
-df.Haha # 相当于 df['Haha]
+df.Haha # 相当于 df['Haha']
 ```
 
 df.value_count()
@@ -39,11 +64,14 @@ df.value_count()
 分类统计类别数
 
 # df2 修改 df1 也会修改
+
+```
 df1 = pd.DataFrame({"col1": [1,2,3]})
 df2 = df1
 df2.iloc[0, 0] = 2
 df2
 df1
+```
 
 ## 修改列名
 
@@ -103,3 +131,28 @@ df.duplicated()
 df.drop_duplicated()
 ```
 
+## 查看变量类型，一般 object 类型需要特别关注
+
+```
+df.columns[df.dtypes==object]
+```
+
+## pd.concate
+
+```
+click = pd.concat([TrainClick, TestClick, TestQtime], axis=0, sort=False)
+```
+
+## 如何 user 的所有 item 集合起来
+
+```
+tr.groupby('userid')['items'].apply(list).reset_index()
+```
+
+
+## drop_duplicates
+
+```
+df.drop_duplicates()
+df.drop_duplicates(keep=False)
+```

@@ -72,5 +72,4 @@ Parameter containing:
 tensor([-0.0849], requires_grad=True)
 ```
 
-
 ![picture](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200428195137.png)

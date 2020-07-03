@@ -15,6 +15,11 @@ df.fillna(3, inplace=True)
 ```
 
 ## isna()
+
 df.isna() 查看是否有确实值。
 
 df.isna().sum() 可以看到每列是否有缺失值。
+
+## dropna
+
+df.dropna(axis=0, how='any', inplace=True)

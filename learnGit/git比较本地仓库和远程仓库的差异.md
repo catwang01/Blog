@@ -7,14 +7,12 @@
 
 ```
 git fetch origin
-
 ```
 
 2、本地与远程的差集 :（显示远程有而本地没有的commit信息）
 
 ```
 git log master..origin/master
-
 ```
 
 3、统计文件的改动

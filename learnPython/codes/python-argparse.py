@@ -18,7 +18,6 @@ parser.add_argument(
     help='Turn on or turn off flag'
 )
 
-
 args = parser.parse_args()
 print(args.flag)
 

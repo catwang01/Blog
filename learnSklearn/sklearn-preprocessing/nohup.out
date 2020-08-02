@@ -1,0 +1,30 @@
+[I 12:00:37.368 NotebookApp] The port 8888 is already in use, trying another port.
+[I 12:00:37.370 NotebookApp] The port 8889 is already in use, trying another port.
+[I 12:00:37.387 NotebookApp] Serving notebooks from local directory: /Users/ed/Git/Blog/learnPandas/learn-Sklearn/sklearn-preprocessing
+[I 12:00:37.387 NotebookApp] The Jupyter Notebook is running at:
+[I 12:00:37.387 NotebookApp] http://localhost:8890/?token=6017692fe56db80046ca20475ba3e33ca6e78cc797e6e158
+[I 12:00:37.387 NotebookApp]  or http://127.0.0.1:8890/?token=6017692fe56db80046ca20475ba3e33ca6e78cc797e6e158
+[I 12:00:37.387 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:00:37.404 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/ed/Library/Jupyter/runtime/nbserver-24247-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=6017692fe56db80046ca20475ba3e33ca6e78cc797e6e158
+     or http://127.0.0.1:8890/?token=6017692fe56db80046ca20475ba3e33ca6e78cc797e6e158
+[I 12:00:41.929 NotebookApp] Creating new notebook in 
+[I 12:00:42.504 NotebookApp] Kernel started: 94559999-45ba-480a-81d1-572e6c1c0c3b
+[W 12:00:42.518 NotebookApp] 404 GET /nbextensions/toc2/main.js?v=20200611120037 (127.0.0.1) 10.88ms referer=http://localhost:8890/notebooks/Untitled.ipynb?kernel_name=python35564bitpytorchconda72e94a1a4f294f41ae76e825f8204341
+[W 12:00:42.533 NotebookApp] 404 GET /nbextensions/select_keymap/main.js?v=20200611120037 (127.0.0.1) 4.21ms referer=http://localhost:8890/notebooks/Untitled.ipynb?kernel_name=python35564bitpytorchconda72e94a1a4f294f41ae76e825f8204341
+[W 12:00:42.535 NotebookApp] 404 GET /nbextensions/hinterland/hinterland.js?v=20200611120037 (127.0.0.1) 4.11ms referer=http://localhost:8890/notebooks/Untitled.ipynb?kernel_name=python35564bitpytorchconda72e94a1a4f294f41ae76e825f8204341
+[W 12:00:42.539 NotebookApp] 404 GET /nbextensions/execute_time/ExecuteTime.js?v=20200611120037 (127.0.0.1) 3.63ms referer=http://localhost:8890/notebooks/Untitled.ipynb?kernel_name=python35564bitpytorchconda72e94a1a4f294f41ae76e825f8204341
+[W 12:00:42.539 NotebookApp] 404 GET /nbextensions/notify/notify.js?v=20200611120037 (127.0.0.1) 3.87ms referer=http://localhost:8890/notebooks/Untitled.ipynb?kernel_name=python35564bitpytorchconda72e94a1a4f294f41ae76e825f8204341
+[W 12:00:42.540 NotebookApp] 404 GET /nbextensions/collapsible_headings/main.js?v=20200611120037 (127.0.0.1) 4.30ms referer=http://localhost:8890/notebooks/Untitled.ipynb?kernel_name=python35564bitpytorchconda72e94a1a4f294f41ae76e825f8204341
+[W 12:00:42.544 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20200611120037 (127.0.0.1) 1.70ms referer=http://localhost:8890/notebooks/Untitled.ipynb?kernel_name=python35564bitpytorchconda72e94a1a4f294f41ae76e825f8204341
+[I 12:00:43.444 NotebookApp] Adapting from protocol version 5.1 (kernel 94559999-45ba-480a-81d1-572e6c1c0c3b) to 5.3 (client).
+[I 12:02:42.491 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:04:27.236 NotebookApp] Saving file at /sklearn-preprocessing.ipynb
+[I 12:04:29.257 NotebookApp] Starting buffering for 94559999-45ba-480a-81d1-572e6c1c0c3b:08faed7a10bd48678bd101fb13b5693d
+[C 21:59:48.168 NotebookApp] received signal 15, stopping
+[I 21:59:48.207 NotebookApp] Shutting down 1 kernel
+[I 21:59:49.759 NotebookApp] Kernel shutdown: 94559999-45ba-480a-81d1-572e6c1c0c3b

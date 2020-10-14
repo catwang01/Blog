@@ -1,0 +1,157 @@
+[I 17:44:17.748 NotebookApp] [nb_conda_kernels] enabled, 8 kernels found
+[I 17:44:18.759 NotebookApp] The port 8888 is already in use, trying another port.
+[I 17:44:18.762 NotebookApp] The port 8889 is already in use, trying another port.
+[I 17:44:18.763 NotebookApp] The port 8890 is already in use, trying another port.
+[I 17:44:18.821 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 17:44:18.871 NotebookApp] JupyterLab extension loaded from /anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 17:44:18.871 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 17:44:18.881 NotebookApp] [nb_conda] enabled
+[I 17:44:18.881 NotebookApp] Serving notebooks from local directory: /Users/ed/Git/Blog/learnNumpy/numpy-alg
+[I 17:44:18.882 NotebookApp] The Jupyter Notebook is running at:
+[I 17:44:18.882 NotebookApp] http://localhost:8891/?token=26d9b289b315892ee27090e1fd13dc5cd0e62d7745b04373
+[I 17:44:18.882 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:44:18.893 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/ed/Library/Jupyter/runtime/nbserver-27289-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8891/?token=26d9b289b315892ee27090e1fd13dc5cd0e62d7745b04373
+[I 17:44:40.745 NotebookApp] Creating new notebook in 
+[I 17:44:41.645 NotebookApp] Kernel started: 2f3e846d-40d5-41c9-84e7-f755d9a5ad29
+[I 17:44:42.581 NotebookApp] Adapting to protocol v5.1 for kernel 2f3e846d-40d5-41c9-84e7-f755d9a5ad29
+[I 17:46:41.632 NotebookApp] Saving file at /Untitled.ipynb
+[I 17:48:41.631 NotebookApp] Saving file at /Untitled.ipynb
+[I 17:50:41.631 NotebookApp] Saving file at /Untitled.ipynb
+[I 17:52:41.629 NotebookApp] Saving file at /Untitled.ipynb
+[I 17:54:41.660 NotebookApp] Saving file at /Untitled.ipynb
+[I 17:56:41.662 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:34:21.593 NotebookApp] Starting buffering for 2f3e846d-40d5-41c9-84e7-f755d9a5ad29:4b19242bc7de45a784b7ecae223c3666
+[I 18:12:31.213 NotebookApp] [nb_conda_kernels] enabled, 8 kernels found
+[I 18:12:32.218 NotebookApp] The port 8888 is already in use, trying another port.
+[I 18:12:32.220 NotebookApp] The port 8889 is already in use, trying another port.
+[I 18:12:32.221 NotebookApp] The port 8890 is already in use, trying another port.
+[I 18:12:32.222 NotebookApp] The port 8891 is already in use, trying another port.
+[I 18:12:32.223 NotebookApp] The port 8892 is already in use, trying another port.
+[I 18:12:32.271 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 18:12:32.320 NotebookApp] JupyterLab extension loaded from /anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 18:12:32.320 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 18:12:32.331 NotebookApp] [nb_conda] enabled
+[I 18:12:32.331 NotebookApp] Serving notebooks from local directory: /Users/ed/Git/Blog/learnNumpy/codes
+[I 18:12:32.331 NotebookApp] The Jupyter Notebook is running at:
+[I 18:12:32.331 NotebookApp] http://localhost:8866/?token=ae4935ae06959b6aa826b32701eb12c96fa6a353f500abc6
+[I 18:12:32.331 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:12:32.345 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/ed/Library/Jupyter/runtime/nbserver-60278-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8866/?token=ae4935ae06959b6aa826b32701eb12c96fa6a353f500abc6
+[I 18:12:36.956 NotebookApp] Kernel started: b67fa0d8-a4e4-4433-8781-9a44733d439e
+[I 18:12:37.843 NotebookApp] Adapting to protocol v5.1 for kernel b67fa0d8-a4e4-4433-8781-9a44733d439e
+[I 18:12:55.057 NotebookApp] Creating new notebook in 
+[I 18:12:55.664 NotebookApp] Kernel started: 3d2197c4-1a24-4925-b1f2-31b4b6f823ad
+[I 18:14:55.697 NotebookApp] Saving file at /Untitled1.ipynb
+[I 18:16:55.696 NotebookApp] Saving file at /Untitled1.ipynb
+[I 20:24:03.967 NotebookApp] Saving file at /Untitled1.ipynb
+[I 20:26:03.970 NotebookApp] Saving file at /Untitled1.ipynb
+[I 20:28:03.967 NotebookApp] Saving file at /Untitled1.ipynb
+[I 20:30:03.973 NotebookApp] Saving file at /Untitled1.ipynb
+[I 20:34:04.054 NotebookApp] Saving file at /Untitled1.ipynb
+[I 20:36:04.047 NotebookApp] Saving file at /Untitled1.ipynb
+[I 20:40:04.046 NotebookApp] Saving file at /Untitled1.ipynb
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 20:47:13.714 NotebookApp] [nb_conda_kernels] enabled, 8 kernels found
+[I 20:47:14.700 NotebookApp] The port 8888 is already in use, trying another port.
+[I 20:47:14.701 NotebookApp] The port 8889 is already in use, trying another port.
+[I 20:47:14.702 NotebookApp] The port 8890 is already in use, trying another port.
+[I 20:47:14.703 NotebookApp] The port 8891 is already in use, trying another port.
+[I 20:47:14.704 NotebookApp] The port 8892 is already in use, trying another port.
+[I 20:47:14.737 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 20:47:14.770 NotebookApp] JupyterLab extension loaded from /anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 20:47:14.770 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 20:47:14.776 NotebookApp] [nb_conda] enabled
+[I 20:47:14.776 NotebookApp] Serving notebooks from local directory: /Users/ed/Git/Blog/learnNumpy/codes
+[I 20:47:14.776 NotebookApp] The Jupyter Notebook is running at:
+[I 20:47:14.776 NotebookApp] http://localhost:8883/?token=29f5a6a026f6fe4dcf7582a1d7ddcc1fd873f4b8d0c96e42
+[I 20:47:14.776 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 20:47:14.782 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/ed/Library/Jupyter/runtime/nbserver-61494-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8883/?token=29f5a6a026f6fe4dcf7582a1d7ddcc1fd873f4b8d0c96e42
+[I 20:47:19.343 NotebookApp] Kernel started: 2a8c0989-d38d-472c-9d93-9fdeb01eae7b
+[I 20:47:20.227 NotebookApp] Adapting to protocol v5.1 for kernel 2a8c0989-d38d-472c-9d93-9fdeb01eae7b
+[I 20:47:35.378 NotebookApp] Starting buffering for 2a8c0989-d38d-472c-9d93-9fdeb01eae7b:de4b4e602190453e9c3661bf4102c9f7
+[I 20:47:37.372 NotebookApp] Kernel started: 62e67392-7557-45f8-ae61-9212ce07b45d
+[I 20:49:37.381 NotebookApp] Saving file at /Untitled1.ipynb
+[I 20:51:37.380 NotebookApp] Saving file at /Untitled1.ipynb
+[I 21:03:37.401 NotebookApp] Saving file at /Untitled1.ipynb
+[I 21:05:37.414 NotebookApp] Saving file at /Untitled1.ipynb
+[I 21:07:37.401 NotebookApp] Saving file at /Untitled1.ipynb
+[I 21:09:37.402 NotebookApp] Saving file at /Untitled1.ipynb
+[I 21:11:37.407 NotebookApp] Saving file at /Untitled1.ipynb
+[I 21:13:37.400 NotebookApp] Saving file at /Untitled1.ipynb
+[I 21:14:18.809 NotebookApp] Saving file at /Untitled1.ipynb
+[W 21:14:19.011 NotebookApp] Notebook Untitled1.ipynb is not trusted
+[W 21:20:09.677 NotebookApp] Notebook output.ipynb is not trusted
+[I 21:20:09.733 NotebookApp] Kernel started: f322095e-ed72-43bd-95b4-b69db5db7d56
+[I 21:20:11.058 NotebookApp] Adapting to protocol v5.1 for kernel f322095e-ed72-43bd-95b4-b69db5db7d56
+[I 21:20:46.117 NotebookApp] Starting buffering for f322095e-ed72-43bd-95b4-b69db5db7d56:6abf9e470a344706ac374c3dbe54b702
+[W 21:20:46.207 NotebookApp] Notebook output.ipynb is not trusted
+[I 21:20:46.571 NotebookApp] Adapting to protocol v5.1 for kernel f322095e-ed72-43bd-95b4-b69db5db7d56
+[I 21:22:46.562 NotebookApp] Saving file at /output.ipynb
+[I 23:00:42.285 NotebookApp] Starting buffering for 62e67392-7557-45f8-ae61-9212ce07b45d:f27ab3cda53c48568f304b290dc67169
+[I 23:00:43.118 NotebookApp] Starting buffering for f322095e-ed72-43bd-95b4-b69db5db7d56:29814237a28a49808d18772ff34ebd27
+[I 23:01:14.302 NotebookApp] [nb_conda_kernels] enabled, 8 kernels found
+[I 23:01:15.309 NotebookApp] The port 8888 is already in use, trying another port.
+[I 23:01:15.311 NotebookApp] The port 8889 is already in use, trying another port.
+[I 23:01:15.312 NotebookApp] The port 8890 is already in use, trying another port.
+[I 23:01:15.314 NotebookApp] The port 8891 is already in use, trying another port.
+[I 23:01:15.315 NotebookApp] The port 8892 is already in use, trying another port.
+[I 23:01:15.365 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 23:01:15.408 NotebookApp] JupyterLab extension loaded from /anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 23:01:15.408 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 23:01:15.415 NotebookApp] [nb_conda] enabled
+[I 23:01:15.415 NotebookApp] Serving notebooks from local directory: /Users/ed/Git/Blog/learnNumpy/codes
+[I 23:01:15.415 NotebookApp] The Jupyter Notebook is running at:
+[I 23:01:15.415 NotebookApp] http://localhost:8862/?token=4aa0bf8a0f36eef214927afe63c15d4e6c13035b904e76b2
+[I 23:01:15.415 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 23:01:15.429 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/ed/Library/Jupyter/runtime/nbserver-62915-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8862/?token=4aa0bf8a0f36eef214927afe63c15d4e6c13035b904e76b2
+[I 23:01:48.471 NotebookApp] Kernel started: 83ab4d65-20fa-44dd-abcf-9dbe0f3099b9
+[I 23:01:49.684 NotebookApp] Adapting to protocol v5.1 for kernel 83ab4d65-20fa-44dd-abcf-9dbe0f3099b9
+[I 23:03:48.463 NotebookApp] Saving file at /output.ipynb
+[I 23:05:48.455 NotebookApp] Saving file at /output.ipynb
+[I 23:09:48.457 NotebookApp] Saving file at /output.ipynb
+[I 23:11:48.465 NotebookApp] Saving file at /output.ipynb
+[I 23:13:48.469 NotebookApp] Saving file at /output.ipynb
+[I 23:15:48.479 NotebookApp] Saving file at /output.ipynb
+[I 23:17:48.481 NotebookApp] Saving file at /output.ipynb
+[I 23:19:48.480 NotebookApp] Saving file at /output.ipynb
+[I 23:21:48.482 NotebookApp] Saving file at /output.ipynb
+[I 23:23:48.483 NotebookApp] Saving file at /output.ipynb
+[I 23:25:48.484 NotebookApp] Saving file at /output.ipynb
+[I 23:27:48.486 NotebookApp] Saving file at /output.ipynb
+[I 23:29:48.489 NotebookApp] Saving file at /output.ipynb
+[I 23:31:48.488 NotebookApp] Saving file at /output.ipynb
+[I 23:33:48.487 NotebookApp] Saving file at /output.ipynb
+[I 23:35:48.490 NotebookApp] Saving file at /output.ipynb
+[I 23:37:48.515 NotebookApp] Saving file at /output.ipynb
+[I 09:38:45.076 NotebookApp] Starting buffering for 83ab4d65-20fa-44dd-abcf-9dbe0f3099b9:f6c02376ebd94c6785c279385f8a92cc
+[C 21:59:48.151 NotebookApp] received signal 15, stopping
+[C 21:59:48.157 NotebookApp] received signal 15, stopping
+[C 21:59:48.160 NotebookApp] received signal 15, stopping
+[I 21:59:48.184 NotebookApp] Shutting down 1 kernel
+[I 21:59:48.208 NotebookApp] Shutting down 1 kernel
+[I 21:59:48.222 NotebookApp] Shutting down 3 kernels
+[I 21:59:49.277 NotebookApp] Kernel shutdown: 2a8c0989-d38d-472c-9d93-9fdeb01eae7b
+[I 21:59:49.552 NotebookApp] Kernel shutdown: 2f3e846d-40d5-41c9-84e7-f755d9a5ad29
+[I 21:59:50.809 NotebookApp] Kernel shutdown: 62e67392-7557-45f8-ae61-9212ce07b45d
+[I 21:59:50.811 NotebookApp] Kernel shutdown: f322095e-ed72-43bd-95b4-b69db5db7d56
+[I 21:59:50.999 NotebookApp] Kernel shutdown: 83ab4d65-20fa-44dd-abcf-9dbe0f3099b9
